@@ -1,7 +1,6 @@
 version: 0.2
 phases:
   install:
-    - echo "Install section start"
     runtime-versions:
       python: 3.8
     commands:
