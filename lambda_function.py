@@ -4,5 +4,6 @@ def lambda_handler(event, context):
     print('Hello World!')
     for i in range(10):
         print('iterator',i)
+        yield i
     return 'Hello World!'
     
